@@ -45,6 +45,9 @@ class FetchPreview {
       }
     });
 
+    var imageElements = document.getElementsByTagName('image');
+    var secondImage = imageElements[0];
+
     return {
       'title': title ?? '',
       'description': description ?? '',
